@@ -1,0 +1,32 @@
+# Permalinks
+permalink:      /:year-:month-:day/:title
+
+# Setup
+title:          Jinwoo Jeong Blog
+baseurl:        ""
+url:            "http://williamjeong2.github.io"
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        :compressed
+
+# Build settings
+markdown:       kramdown
+
+# About
+author:
+  name:         Jinwoo Jeong
+  url:          http://williamjeong2.github.io
+  email:        wjd5480@gmail.com
+  github:       WilliamJeong2
+  #twitter:      
+
+# Custom vars
+version:        3.4.1
+github:
+  repo:         https://github.com/WilliamJeong2/WilliamJeong2.github.io
